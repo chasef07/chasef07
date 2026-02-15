@@ -1,0 +1,42 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#061826"/>
+      <stop offset="0.5" stop-color="#0A2F45"/>
+      <stop offset="1" stop-color="#124B64"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="260" y1="48" x2="1280" y2="362" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2EE6A6"/>
+      <stop offset="1" stop-color="#69D2FF"/>
+    </linearGradient>
+    <filter id="blur" x="-200" y="-200" width="2000" height="900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="420" fill="url(#bg)"/>
+
+  <g opacity="0.22" filter="url(#blur)">
+    <circle cx="250" cy="60" r="160" fill="#69D2FF"/>
+    <circle cx="1320" cy="340" r="190" fill="#2EE6A6"/>
+    <circle cx="760" cy="250" r="120" fill="#9AF7D9"/>
+  </g>
+
+  <rect x="88" y="66" width="108" height="8" rx="4" fill="#2EE6A6"/>
+  <text x="88" y="168" fill="white" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="74" font-weight="700">
+    Chase Fagen
+  </text>
+  <text x="88" y="226" fill="#D9F8FF" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="31" font-weight="500">
+    AI Automation + Product Engineering
+  </text>
+  <text x="88" y="274" fill="#9CD5E7" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="400">
+    Building practical systems that save teams time.
+  </text>
+
+  <g opacity="0.95">
+    <rect x="88" y="322" width="220" height="44" rx="22" fill="url(#accent)"/>
+    <text x="116" y="350" fill="#042A3A" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="700">
+      github.com/chasef07
+    </text>
+  </g>
+</svg>

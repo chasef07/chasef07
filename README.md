@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./images/header.svg" alt="Every patient gets the VIP line — Chase Fagen, voice AI and telephony" width="100%" />
-</p>
+
 
 # Chase Fagen
 
